@@ -1,0 +1,22 @@
+.cajitas-container {
+  background-color: blueviolet;
+  height: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.cajita {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  margin: 10px;
+  font-size: 70px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
